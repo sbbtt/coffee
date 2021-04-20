@@ -31,7 +31,12 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous"></script>
+  <!-- GSAP , ScrollToPlugin -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js" integrity="sha512-kSI9CgGh60rJbNVeMJvfNX0UTKAq8LEOea/yKJQbFpIroxT7bf9/zUFXbnfsQP5F6xlOOHtCfBPgsE1ceiHnRw==" crossorigin="anonymous"></script>
+  <!-- Scroll Magic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous"></script>
+  <script defer src="./js/youtube.js"></script>
   <script defer src="./js/main.js"></script>
   
 </head>
@@ -475,6 +480,209 @@
       </div>
       
     </section>
+    <!-- REWARDS -->
+    <section class="rewards">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+
+        <div class="btn-group">
+          <div class="btn btn--reverse sign-up">회원가입</div>
+          <div class="btn sign-in">로그인</div>
+          <div class="btn gift">e-Gift 선물하기</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- YOUTUBE VIDEO -->
+    <section class="youtube">
+      <div class="youtube__area">
+        <div id="player"></div>
+      </div>
+      <div class="youtube__cover"></div>
+      <div class="inner">
+
+        <img src="./images/floating1.png" alt="Icon" class="floating floating1" />
+        <img src="./images/floating2.png" alt="Icon" class="floating floating2" />
+        
+
+      </div>
+    </section>
+
+    <!-- SEASON PRODUCT -->
+    <section class="season-product scroll-spy">
+      <div class="inner">
+        <img src="./images/floating3.png" alt="Icon" class="floating floating3" />
+        <img src="./images//season_product_image.png" alt="" class="product back-to-position to-right delay-0"/>
+
+        <div class="text-group">
+          <img src="./images/season_product_text1.png" alt="" class="title back-to-position to-left delay-1"/>
+          <img src="./images/season_product_text2.png" alt="" class="description back-to-position to-left delay-2"/>
+          <div class="more back-to-position to-left delay-3">
+            <a href="javascript:void(0)" class="btn">자세히 보기</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- RESERVE COFFEE -->
+    <section class="reserve-coffee scroll-spy">
+      <div class="inner">
+
+        <img src="./images/reserve_logo.png" alt="" class="reserve-logo back-to-position to-right delay-0">
+        <div class="text-group">
+          <img src="./images/reserve_text.png" alt="" class="description back-to-position to-right delay-1">
+          <div class="more back-to-position to-right delay-2">
+            <a href="javascript:void(0)" class="btn btn--gold">자세히 보기</a>
+
+          </div>
+        </div>
+
+        <img src="./images/reserve_image.png" alt="" class="product back-to-position to-left delay-3">
+
+      </div>
+    </section>
+
+    <!-- PICK UR FAVORITE -->
+    <section class="pick-your-favorite scroll-spy">
+      <div class="inner">
+
+        <div class="text-group">
+          <img src="./images/favorite_text1.png" alt="" class="title back-to-position to-right delay-0"/>
+          <img src="./images/favorite_text2.png" alt="" class="description back-to-position to-right delay-1"/>
+          <div class="more back-to-position to-right delay-2">
+            <a href="javascript:void(0)" class="btn btn--white">자세히 보기</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- RESERVE SOTRE -->
+    <section class="reserve-store scroll-spy">
+      <div class="inner">
+
+        <div class="medal">
+          <div class="front">
+            <img src="./images/reserve_store_medal_front.png" alt=""/>
+          </div>
+          <div class="back">
+            <img src="./images/reserve_store_medal_back.png" alt=""/>
+            <a href="javascript:void(0)" class="btn">매장안내</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- FINE THE STORE -->
+    <section class="find-store scroll-spy">
+      <div class="inner">
+
+        <img src="./images/find_store_texture1.png" alt="" class="texture1"/>
+        <img src="./images/find_store_texture2.png" alt="" class="texture2"/>
+        <img src="./images/find_store_picture1.jpg" alt="" class="picture picture1 back-to-position to-right delay-0"/>
+        <img src="./images/find_store_picture2.jpg" alt="" class="picture picture2 back-to-position to-right delay-1"/>
+
+        <div class="text-group">
+          <img src="./images/find_store_text1.png" alt="" class="title back-to-position to-left delay-0"/>
+          <img src="./images/find_store_text2.png" alt="" class="description back-to-position to-left delay-1">
+          <div class="more back-to-position to-left delay-2">
+            <a href="javascript:void(0)" class="btn">매장찾기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- AWARDS -->
+    <section class="awards">
+      <div class="inner">
+
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/awards_slide1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide9.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/awards_slide10.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-prev">
+          <div class="material-icons">arrow_back</div>
+        </div>
+        <div class="swiper-next">
+          <div class="material-icons">arrow_forward</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="inner">
+        <ul class="menu">
+          <li><a href="javascript:void(0)" class="green">개인정보 처리방침</a></li>
+          <li><a href="javascript:void(0)">영상정보처리기기 운영관리 방침</a></li>
+          <li><a href="javascript:void(0)">홈페이지 이용약관</a></li>
+          <li><a href="javascript:void(0)">위치정보 이용약관</a></li>
+          <li><a href="javascript:void(0)">스타벅스 카드 이용약관</a></li>
+          <li><a href="javascript:void(0)">윤리경영 핫라인</a></li>
+        </ul>
+
+        <div class="btn-group">
+          <a href="javascript:void(0)" class="btn btn--white">찾아오시는 길</a>
+          <a href="javascript:void(0)" class="btn btn--white">신규 입점제의</a>
+          <a href="javascript:void(0)" class="btn btn--white">사이트 맵</a>
+        </div>
+        <div class="info">
+          <span>사업자등록번호 201-81-21515</span>
+          <span>(주)스타벅스 코리아 대표이사 이석구</span>
+          <span>TEL : 02) 3015-1100 / FAX : 02) 3015-1106</span>
+          <span>개인정보 책임자 : 강기원</span>
+        </div>
+
+        <p class="copyright">
+          &copy; <span class="this-year"></span> Starbucks Coffee Company. All Rights Reserved.
+        </p>
+        <img src="./images/starbucks_logo_only_text.png" alt="" class="logo"/>
+
+      </div>
+    </footer>
+
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
 
 
 </body>
