@@ -1,0 +1,19 @@
+{
+  "name": "coffee",
+  "version": "1.0.0",
+  "description": "starbucks clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbbtt/coffee.git"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbbtt/coffee/issues"
+  },
+  "homepage": "https://github.com/sbbtt/coffee#readme"
+}
